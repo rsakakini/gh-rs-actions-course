@@ -12,6 +12,6 @@ jobs:
         steps:
          - name: Failed step
            run:  |
-             echo "I will fail"
-             exit 1
+             echo "I will not fail"
+             exit 0
          
