@@ -1,5 +1,5 @@
 name: 02-workflow-events
-on: [push, pull_request, schedule , workflow_dispatch]
+on:  workflow_dispatch
 
 jobs:
     echo-job:
